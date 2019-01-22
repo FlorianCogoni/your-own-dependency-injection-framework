@@ -21,7 +21,7 @@ public class OwnDiFramework {
         this.module = module;
     }
 
-    public Object inject(final Class<?> classToInject) throws Exception {
+    Object inject(final Class<?> classToInject) throws Exception {
         if (classToInject == null) {
             return null;
         }
